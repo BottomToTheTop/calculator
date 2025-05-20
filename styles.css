@@ -1,0 +1,32 @@
+body {
+    background-color: lightblue;
+}
+
+button {
+    width:50px;
+    margin: 2px;
+    padding: 10px 20px;
+}
+
+.display {
+    width: 225px;
+    background-color: white;
+    text-align: right;
+}
+
+.container {
+    width:250px;
+    flex-wrap: wrap;
+}
+
+.equals {
+    height:125px;
+}
+
+.inner-container {
+    display:flex
+}
+
+.digits {
+    width: 175px;
+}
