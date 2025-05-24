@@ -1,32 +1,52 @@
-body {
-    background-color: lightblue;
-}
-
 button {
     width:50px;
-    margin: 2px;
-    padding: 10px 20px;
+    height:50px;
+    border-radius: 10px;
 }
 
 .display {
-    width: 225px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 200px;
+    height: 50px;
+    font-size: 50px;
     background-color: white;
-    text-align: right;
 }
 
 .container {
-    width:250px;
-    flex-wrap: wrap;
+    width: 200px;
+    height: 300px;
+    background-color: grey;
+    margin: 0 auto;
+    border-style: solid;
+    border-width: 10px;
+    border-color: darkgreen;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 2px;
 }
 
+.first-row,
+.second-row,
+.operators {
+    display: flex;
+    width: 200px;
+}
+
+.second-row {
+    height: 50px;
+}
+
+.third-row {
+    display: flex;
+    justify-content: start;
+    width: 150px;
+}
+
+.fourth-row {
+    display: flex;
+    padding-left: 50px;
+}
 .equals {
-    height:125px;
-}
-
-.inner-container {
-    display:flex
-}
-
-.digits {
-    width: 175px;
+    height: 100px;
 }
